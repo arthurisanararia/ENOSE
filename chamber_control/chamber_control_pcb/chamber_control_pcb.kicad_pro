@@ -366,12 +366,36 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -416,7 +440,7 @@
         "uuid": "2706f8f1-4eb5-42be-9141-7275337bed24"
       }
     ],
-    "used_designators": "J1,MOSFET1-2,R3-14,LR1,D1-4,#PWR2-8,Q1-2,BC1,C1",
+    "used_designators": "U1-2,LR2,#PWR9-15,J1-4,BZ1,R15-21,OL1,Q3-5",
     "variants": []
   },
   "sheets": [
