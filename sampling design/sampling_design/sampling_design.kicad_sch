@@ -3792,8 +3792,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "T"
-				(at 0 0 0)
+			(property "Reference" "T7"
+				(at 0 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -3802,8 +3802,8 @@
 					)
 				)
 			)
-			(property "Value" "TGS2620"
-				(at 0 -2.286 0)
+			(property "Value" "TGS2602"
+				(at 0 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -4774,9 +4774,9 @@
 		)
 		(uuid "fe2f1d5e-47a7-4450-b812-b48f316398b6")
 	)
-	(text "TGS2620 SENSOR"
+	(text "TGS2620 & TGS2602 SENSOR"
 		(exclude_from_sim no)
-		(at 30.734 26.416 0)
+		(at 36.068 26.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5009,12 +5009,6 @@
 		(uuid "3f2a361f-d950-46b2-915a-cfcfee894c15")
 	)
 	(junction
-		(at 276.86 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "41e931d8-b881-4121-b45d-7a732e853a5a")
-	)
-	(junction
 		(at 273.05 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5091,12 +5085,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c82daceb-e07d-4d20-a745-ad1ca91710a2")
-	)
-	(junction
-		(at 276.86 132.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ce002690-fcca-443c-ab5a-764b7abf6cc7")
 	)
 	(junction
 		(at 320.04 195.58)
@@ -5376,7 +5364,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 129.54) (xy 276.86 129.54)
+			(xy 273.05 129.54) (xy 293.37 129.54)
 		)
 		(stroke
 			(width 0)
@@ -5473,16 +5461,6 @@
 			(type default)
 		)
 		(uuid "2b23233f-f79d-43a4-bb5e-178c5a04f219")
-	)
-	(wire
-		(pts
-			(xy 276.86 129.54) (xy 276.86 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2be7f0c3-9758-43fe-901d-8f413034137b")
 	)
 	(wire
 		(pts
@@ -5876,16 +5854,6 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 140.97) (xy 276.86 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4dcca004-0f6b-4a32-aff4-6302133cf0af")
-	)
-	(wire
-		(pts
 			(xy 166.37 109.22) (xy 166.37 102.87)
 		)
 		(stroke
@@ -5903,16 +5871,6 @@
 			(type default)
 		)
 		(uuid "4f8c80cf-a480-47b2-8f8e-ec9dcd3c0ff6")
-	)
-	(wire
-		(pts
-			(xy 276.86 132.08) (xy 276.86 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5236d056-e203-4f5d-abd6-97a3d509a1c2")
 	)
 	(wire
 		(pts
@@ -6096,16 +6054,6 @@
 	)
 	(wire
 		(pts
-			(xy 293.37 129.54) (xy 276.86 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ab804df-fd00-4641-82e7-5bf677cbc7e4")
-	)
-	(wire
-		(pts
 			(xy 99.06 193.04) (xy 95.25 193.04)
 		)
 		(stroke
@@ -6133,16 +6081,6 @@
 			(type default)
 		)
 		(uuid "6b3ab139-0b69-42d7-a178-e730a692fe4a")
-	)
-	(wire
-		(pts
-			(xy 293.37 132.08) (xy 276.86 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c436985-2b84-4488-9a24-78a9ef369103")
 	)
 	(wire
 		(pts
@@ -6456,16 +6394,6 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 118.11) (xy 276.86 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85c1f5ff-4326-4c81-988b-d5bcb9d36c7f")
-	)
-	(wire
-		(pts
 			(xy 45.72 204.47) (xy 49.53 204.47)
 		)
 		(stroke
@@ -6666,7 +6594,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 132.08) (xy 276.86 132.08)
+			(xy 273.05 132.08) (xy 293.37 132.08)
 		)
 		(stroke
 			(width 0)
@@ -14828,16 +14756,6 @@
 		)
 		(uuid "6614626f-7515-4dd2-b3b0-082931d79aeb")
 	)
-	(label "3.3V"
-		(at 276.86 118.11 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "66ab7149-5c18-4e7d-aa6b-9aa314a62449")
-	)
 	(label "5V Heater"
 		(at 27.94 109.22 0)
 		(fields_autoplaced yes)
@@ -15024,7 +14942,7 @@
 		)
 		(uuid "917c5996-d52b-438f-94f8-2537a666b80c")
 	)
-	(label "3.3V"
+	(label "5V"
 		(at 147.32 208.28 180)
 		(effects
 			(font
@@ -15233,16 +15151,6 @@
 			(justify right bottom)
 		)
 		(uuid "e126294a-c7d2-49f3-b6f1-8652dadaa59f")
-	)
-	(label "3.3V"
-		(at 276.86 144.78 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e74383bb-b14d-4c6f-93f7-15ece3cfa116")
 	)
 	(label "5V Circuit"
 		(at 110.49 60.96 0)
@@ -16640,88 +16548,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 276.86 137.16 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2a4cd430-7831-4bbf-9f60-bdc9f8cc633a")
-		(property "Reference" "R4"
-			(at 279.4 135.8899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4k7"
-			(at 279.4 138.4299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 275.082 137.16 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 276.86 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 276.86 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c1b6c4cf-11b0-4395-ae98-a158420f648f")
-		)
-		(pin "2"
-			(uuid "831c72aa-9d87-40a5-b0cc-5249e7a24577")
-		)
-		(instances
-			(project "sampling_design"
-				(path "/f399381a-f46e-4984-aeb7-79235e4e9a45"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SD_Card:SD_Card_Module")
 		(at 156.21 127 0)
 		(unit 1)
@@ -16808,88 +16634,6 @@
 			(project "sampling_design"
 				(path "/f399381a-f46e-4984-aeb7-79235e4e9a45"
 					(reference "SD1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 276.86 124.46 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "37732020-918e-4b19-8d78-42621b956b45")
-		(property "Reference" "R3"
-			(at 279.4 123.1899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4k7"
-			(at 279.4 125.7299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 275.082 124.46 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 276.86 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 276.86 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3b414562-6815-4bb7-8bef-22e181bb51de")
-		)
-		(pin "2"
-			(uuid "4506c198-c8e0-47b9-bd15-87c8fd7468f6")
-		)
-		(instances
-			(project "sampling_design"
-				(path "/f399381a-f46e-4984-aeb7-79235e4e9a45"
-					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -19320,7 +19064,7 @@
 				)
 			)
 		)
-		(property "Value" "TGS2620"
+		(property "Value" "TGS2602"
 			(at 36.83 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
